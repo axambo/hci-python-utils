@@ -67,15 +67,76 @@ You should start having csv file with the results, see `SUS-input-data.csv` for 
 
 ### Expected Collected data
 
-There are 6 orthogonal factors (*exploration*, *expressiveness*, *enjoyment*, *immersion*, *collaboration*, *results*, *worth effort*) and in the survey there are 2 questions for each (with a total of 12 questions). If you were evaluating more than one system, this set of questions would be repeated for each system.
+There are 6 orthogonal factors (*exploration*, *expressiveness*, *enjoyment*, *immersion*, *collaboration*, *results*, *worth effort*) and in the survey there are 2 questions for each (with a total of 12 questions). If you were evaluating more than one system, this set of questions would be repeated for each system:
 
-In the survey, there are also 15 pairwise factor questions, which is used to rank the 6 factors. If you were evaluating more than one system, this set of questions would only be asked once, but the results would be repeated in the computation for each system evaluated.
+1. I was satisfied with what I got out of the system or tool. (*ResultsWorthEffort*)
+2. It was easy for me to explore many different ideas, options, designs, or outcomes, using this system or tool. (*Exploration*)
+3. The system or tool allowed other people to work with me easily (mark 0 if this question is not relevant for the task). (*Collaboration*)
+4. I would be happy to use this system or tool on a regular basis. (*Enjoyment*)
+5. I was able to be very expressive and creative while doing the activity inside this system or tool. (*Expressiveness*)
+6. My attention was fully tuned to the activity, and I forgot about the system or tool that I was using. (*Immersion*)
+7. I enjoyed using this system or tool. (*Enjoyment*)
+8. The system or tool was helpful in allowing me to track different ideas, outcomes, or possibilities. (*Exploration*)
+9. What I was able to produce was worth the effort I had to exert to produce it. (*ResultsWorthEffort*)
+10. The system or tool allowed me to be very expressive. (*Expressiveness*)
+11. It was really easy to share ideas and designs with other people inside this system or tool (mark 0 if this question is not relevant for the task). (*Collaboration*)
+12. I became so absorbed in the activity that I forgot about the system or tool that I was using. (*Immersion*)
+
+In the survey, there are also 15 pairwise factor questions, which is used to rank the 6 factors. If you were evaluating more than one system, this set of questions would only be asked once, but the results would be repeated in the computation for each system evaluated:
+
+1. When doing this task, it's most important that I'm able to...
+	- Explore many different ideas, outcomes, or possibilities. (*Exploration*)
+	- Work with other people. (*Collaboration*)
+2. When doing this task, it's most important that I'm able to...
+	- Be creative and expressive. (*Expressivity*)
+	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
+3. When doing this task, it's most important that I'm able to...
+	- Enjoy using the system or tool. (*Enjoyment*)
+	- Become immersed in the activity. (*Immersion*)
+4. When doing this task, it's most important that I'm able to...
+	- Become immersed in the activity. (*Immersion*)
+	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
+5. When doing this task, it's most important that I'm able to... 
+	- Work with other people. (*Collaboration*).
+	- Enjoy using the system or tool. (*Enjoyment*)
+6. When doing this task, it's most important that I'm able to...
+	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
+	- Explore many different ideas, outcomes, or possibilities. (*Exploration*)
+7. When doing this task, it's most important that I'm able to...
+	- Be creative and expressive. (*Expressivity*)
+	- Become immersed in the activity. (*Immersion*)
+8. When doing this task, it's most important that I'm able to...
+	- Work with other people. (*Collaboration*)
+	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
+9. When doing this task, it's most important that I'm able to...
+	- Be creative and expressive. (*expressivity*)
+	- Enjoy using the system or tool. (*enjoyment*)
+10. When doing this task, it's most important that I'm able to...
+	- Explore many different ideas, outcomes, or possibilities. (*Exploration*)
+	- Become immersed in the activity. (*Immersion*)
+11. When doing this task, it's most important that I'm able to...
+	- Work with other people. (*Collaboration*)
+	- Be creative and expressive. (*Expressivity*)
+12. When doing this task, it's most important that I'm able to...
+	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
+	- Enjoy using the system or tool. (*Enjoyment*)
+13. When doing this task, it's most important that I'm able to...
+	- Explore many different ideas, outcomes, or possibilities. (*Exploration*)
+	- Be creative and expressive. (*Expressivity*)
+14. When doing this task, it's most important that I'm able to...
+	- Work with other people. (*Collaboration*)
+	- Become immersed in the activity. (*Immersion*)
+15. When doing this task, it's most important that I'm able to...
+	- Explore many different ideas, outcomes, or possibilities. (*Exploration*)
+	- Enjoy using the system or tool. (*Enjoyment*)
+
+The answers are formatted using a rating scale (Likert scale) that range from 0 to 10 (from Highly Disagree to Highly Agree).
 
 For each participant/system, you should end up with a CSI index (0-100) that indicates the level of creativity support afforded by the system.
 
 ### CSI Calculation
 
-In the paper's version, an average is calculated first between the two sets of questions of the first block, ending with 6 average values one for each factor. Then, each average factor is multiplied by  the weighted result for each factor based in the pairwise comparisons. The overall summation is divided into 1.5.
+In the paper's version, an average is calculated first between the two sets of questions of the first block, ending with 6 average values one for each factor. Then, each average factor is multiplied by  the weighted result for each factor based in the pairwise comparisons. The overall summation is divided into 1.5. The implementation is informed by both the paper and the [CSI Jar implementation](http://www.erincherry.net/#csi) by Erin Cherry.
 
 ### Application Start
 
