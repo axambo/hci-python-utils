@@ -136,7 +136,7 @@ For each participant/system, you should end up with a CSI index (0-100) that ind
 
 ### CSI Calculation
 
-In the paper's version, an average is calculated first between the two sets of questions of the first block, ending with 6 average values one for each factor. Then, each average factor is multiplied by  the weighted result for each factor based in the pairwise comparisons. The overall summation is divided into 1.5. The implementation is informed by both the paper and the [CSI Jar implementation](http://www.erincherry.net/#csi) by Erin Cherry.
+In the paper's version, an average is calculated first between the two sets of questions of the first block, ending with 6 average values one for each factor. Then, each average factor is multiplied by  the weighted result for each factor based in the pairwise comparisons. The overall summation is divided into 1.5. The implementation is informed by both the Erin Cherry's paper and [CSI Jar implementation](http://www.erincherry.net/#csi).
 
 ### Application Start
 
