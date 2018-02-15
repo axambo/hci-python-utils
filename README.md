@@ -159,7 +159,7 @@ You should start having two csv files with the results, see `CSI-input-factor-da
 
 ## Acknowledgements
 
-Thanks to Mathieu Barthet and Thomas Deacon from Queen Mary University of London for sharing these methods with me and for lively discussions around the topic. This research is funded by the [AudioCommons project](http://www.audiocommons.org/). The Audio Commons Initiative is funded by the European Commission through the Horizon 2020 programme, research and innovation grant 688382.
+Thanks to Mathieu Barthet and Thomas Deacon from Queen Mary University of London for sharing the CSI method with me and for lively discussions around the topic. This research is funded by the [AudioCommons project](http://www.audiocommons.org/). The Audio Commons Initiative is funded by the European Commission through the Horizon 2020 programme, research and innovation grant 688382.
 
 ## References
 
