@@ -156,6 +156,11 @@ You should start having two csv files with the results, see `CSI-input-factor-da
 	* *outputfactordata*: `csi-factors-results.csv`
 	* *outputfactordata_sorted*: `csi-factors-results-sorted.csv`
 
+
+## Acknowledgements
+
+Thanks to Mathieu Barthet and Thomas Deacon from Queen Mary University of London for sharing these methods with me and for lively discussions around the topic. This research is funded by the [AudioCommons project](http://www.audiocommons.org/). The Audio Commons Initiative is funded by the European Commission through the Horizon 2020 programme, research and innovation grant 688382.
+
 ## References
 
 * Brooke, John. [SUS - A Quick and Dirty Usability Scale](https://hell.meiert.org/core/pdf/sus.pdf). Usability Evaluation in Industry, 189(194):4-7, 1996.
