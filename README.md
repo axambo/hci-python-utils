@@ -36,32 +36,32 @@ To calculate the SUS score, first sum the score contributions from each item. Ea
 
 ### Application Start
 
-You should start having csv file with the results, see `SUS-input-data.csv` for an example.
+You should start having csv file with the results, see `sus-input-data.csv` for an example.
 
 1. Go to the Terminal and launch the python script `sus.py`:
 
 	```
-	python sus.py SUS-input-data.csv SUS-results.csv
+	python sus.py sus-input-data.csv sus-results.csv
 	```
 
-	where you should replace the first argument `SUS-input-data.csv` with the csv filename of the collected data, which should be organized by participants and questions, and the second argument `SUS-results.csv` with the filename that will store the resulting SUS index for each participant.
+	where you should replace the first argument `sus-input-data.csv` with the csv filename of the collected data, which should be organized by participants and questions, and the second argument `sus-results.csv` with the filename that will store the resulting SUS index for each participant.
 
-2. Once you get the results, feel free to use either the `SUS-plot.py` script for a single boxplot or the `SUS-plot-compare.py` script for multiple boxplots that represent various systems.
+2. Once you get the results, feel free to use either the `sus-plot.py` script for a single boxplot or the `sus-plot-compare.py` script for multiple boxplots that represent various systems.
 
 	For a single boxplot:
 	
 	```
-	python sus-plot.py SUS-results.csv
+	python sus-plot.py sus-results.csv
 	```
 	
-	where you should replace the first argument `SUS-results.csv` with the csv filename of the results of the SUS metric.
+	where you should replace the first argument `sus-results.csv` with the csv filename of the results of the SUS metric.
 	
 	For multiple boxplots:
 	
 	```
-	python sus-plot-compare.py SUS-results1.csv SUS-results2.csv SUS-results3.csv
+	python sus-plot-compare.py sus-results1.csv sus-results2.csv sus-results3.csv
 	```
-	where you should replace the three arguments `SUS-results1.csv`, `SUS-results2.csv` and `SUS-results3.csv` with the csv filenames of the results of the SUS metric by each tool you would like to compare.
+	where you should replace the three arguments `sus-results1.csv`, `sus-results2.csv` and `sus-results3.csv` with the csv filenames of the results of the SUS metric by each tool you would like to compare.
 
 ## CSI
 
@@ -140,7 +140,7 @@ In the paper's version, an average is calculated first between the two sets of q
 
 ### Application Start
 
-You should start having two csv files with the results, see `CSI-input-factor-data.csv` (12 factor questions) and `CSI-input-pairwise-data.csv` (15 pairwise questions) for an example. Both are needed to calculate the CSI value.
+You should start having two csv files with the results, see `csi-input-factor-data.csv` (12 factor questions) and `csi-input-pairwise-data.csv` (15 pairwise questions) for an example. Both are needed to calculate the CSI value.
 
 1. Go to the Terminal and launch the python script `csi.py`:
 
