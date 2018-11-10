@@ -49,15 +49,15 @@ You should start having csv file with the results, see `sus-input-data.csv` for 
 2. Once you get the results, feel free to use either the `sus-plot.py` script for a single boxplot or the `sus-plot-compare.py` script for multiple boxplots that represent various systems.
 
 	For a single boxplot:
-	
+
 	```
 	python sus-plot.py sus-results.csv
 	```
-	
+
 	where you should replace the first argument `sus-results.csv` with the csv filename of the results of the SUS metric.
-	
+
 	For multiple boxplots:
-	
+
 	```
 	python sus-plot-compare.py sus-results1.csv sus-results2.csv sus-results3.csv
 	```
@@ -96,7 +96,7 @@ In the survey, there are also 15 pairwise factor questions, which is used to ran
 4. When doing this task, it's most important that I'm able to...
 	- Become immersed in the activity. (*Immersion*)
 	- Produce results that are worth the effort I put in. (*Resultswortheffort*)
-5. When doing this task, it's most important that I'm able to... 
+5. When doing this task, it's most important that I'm able to...
 	- Work with other people. (*Collaboration*).
 	- Enjoy using the system or tool. (*Enjoyment*)
 6. When doing this task, it's most important that I'm able to...
@@ -147,9 +147,9 @@ You should start having two csv files with the results, see `csi-input-factor-da
 	```
 	python csi.py
 	```
-	
+
 	where you can either stick with the names of the input/output csv files provided by the python script `csi.py`, or pass them as arguments as it is shown in the SUS example. The current file names are:
-	
+
 	* *factordata*: `csi-input-factor-data.csv`
 	* *pairwisedata*: `csi-input-pairwise-data.csv`
 	* *outputdata*: `csi-results.csv`
@@ -164,7 +164,7 @@ Thanks to Mathieu Barthet and Thomas Deacon from Queen Mary University of London
 ## References
 
 * Brooke, John. [SUS - A Quick and Dirty Usability Scale](https://hell.meiert.org/core/pdf/sus.pdf). Usability Evaluation in Industry, 189(194):4-7, 1996.
-* Carroll, Erin A.; Latulipe, Celine; Fung, Richard and Terry, Michael. [Creativity Factor Evaluation: Towards a Standardized Survey Metric for Creativity Support](https://s3.amazonaws.com/academia.edu.documents/30803747/CSI_-_Creativity_Factor_Evaluation_Towards_a_Standardized.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1518631554&Signature=wx3RKIqVzwVNBvl7dzfDpupovqE%3D&response-content-disposition=inline%3B%20filename%3DCreativity_factor_evaluation_Towards_a_s.pdf). In Proceedings of ACM Creativity and Cognition (CC '09), pages 127-136, Berkeley, CA, USA, 2009.
+* Carroll, Erin A.; Latulipe, Celine; Fung, Richard and Terry, Michael. [Creativity Factor Evaluation: Towards a Standardized Survey Metric for Creativity Support](http://hci-web.cs.uwaterloo.ca/sites/default/files/creativitycognition.pdf). In Proceedings of ACM Creativity and Cognition (CC '09), pages 127-136, Berkeley, CA, USA, 2009.
 
 ## License
 
